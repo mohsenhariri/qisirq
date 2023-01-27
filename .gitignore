@@ -143,4 +143,4 @@ dmypy.json
 env_local
 env_invent
 .env.*
-!.env.template
+!*.template.*
