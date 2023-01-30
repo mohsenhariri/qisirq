@@ -166,3 +166,23 @@ unittest:
 
 script-upgrade:
 		./scripts/upgrade_dependencies.sh
+
+qiskit-ex1:
+		$(PY) $(SRC)/qiskit_ex1.py 
+
+qiskit-ex2:
+		$(PY) $(SRC)/qiskit_ex2.py  
+
+qiskit-ex3:
+		$(PY) $(SRC)/qiskit_ex3.py
+
+qis-tut-circuit-basic:
+		$(PY) $(SRC)/qis_tut_circuit_basic.py
+
+dj-qisk:
+		$(PY) $(SRC)/dj_qisk.py
+dj-cirq:
+		$(PY) $(SRC)/dj_cirq.py
+
+shor-qis:
+		$(PY) $(SRC)/shor_qis.py
